@@ -1,3 +1,15 @@
+---
+layout: default
+title: Home
+---
+
+<style>
+  a { color: #0366d6; text-decoration: none; }
+  summary { list-style: none; display: flex; align-items: center; }
+  summary::-webkit-details-marker { display: none; }
+</style>
+
+
 <style>
   /* This makes all your links in the list look academic and clean */
   a { 
