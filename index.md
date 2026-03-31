@@ -37,7 +37,7 @@ title: " "
 I am a postdoctoral fellow at the <a href="https://edelstein.huji.ac.il/" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">Edelstein Center for Philosophy of Science</a> at the Hebrew University of Jerusalem. I received my PhD in Philosophy from the <a href="https://www.lse.ac.uk/philosophy" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">London School of Economics</a>. 
 I work primarily in epistemology, decision theory, and ethics. Broadly characterized, my research focuses on the relationships between agents’ mental states and their actions. This includes topics like the role knowledge has to play in decision theory, what moral uncertainty implies for action, and how attitudes to risk shape a rational agent’s preferences. 
 
-My email is zeev.goldschmidt [at] .ac.il
+My email is zeev.goldschmidt [at] huji.ac.il
 
 
 
