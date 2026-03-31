@@ -9,7 +9,7 @@ I work primarily in epistemology, decision theory, and ethics. Broadly character
 
 My email is zeev.goldschmidt [at] huji.ac.il
 
-###
+
 
 ## Publications
 
@@ -51,7 +51,7 @@ My email is zeev.goldschmidt [at] huji.ac.il
   </div>
 </details>
 
-###
+
 
 ## Work in Progress
 
@@ -112,7 +112,7 @@ My email is zeev.goldschmidt [at] huji.ac.il
   </div>
 </details> 
 
-#
+
 
 * [📄 My CV (PDF)](https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing)
 * [🎓 Google Scholar](https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en)
