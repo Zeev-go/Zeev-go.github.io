@@ -1,27 +1,32 @@
 ---
 layout: default
-title: ""
+title: " "
 ---
 
 <style>
-  /* 1. This nukes the blue header banner entirely */
-  .page-header, .site-header, .project-name, .project-tagline { 
+  /* This targets the 5 most common header names in GitHub themes */
+  header, 
+  .page-header, 
+  .site-header, 
+  .project-name, 
+  .project-tagline { 
     display: none !important; 
-    visibility: hidden !important;
     height: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
+    border: none !important;
   }
 
-  /* 2. This cleans up the main content area so it doesn't look squashed */
-  .main-content {
-    padding-top: 2rem !important;
+  /* This ensures your content starts at the top of the page */
+  .main-content, .container-lg {
+    padding-top: 40px !important;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
-  /* 3. Your existing style for the clickable triangles */
+  /* Your existing style for the clickable triangles */
   summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
   summary::-webkit-details-marker { display: none; }
-  details > summary { list-style: none; }
 </style>
 
 # Zeev Goldschmidt
