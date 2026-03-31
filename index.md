@@ -2,6 +2,16 @@
 layout: default
 title: 
 ---
+<style>
+  /* This hides the "Site Title" header in most GitHub themes */
+  .site-header, .project-name, #header { 
+    display: none !important; 
+  }
+  
+  /* Your existing style for the triangles */
+  summary { list-style: none; display: flex; align-items: center; }
+  summary::-webkit-details-marker { display: none; }
+</style>
 
 # Zeev Goldschmidt
 
