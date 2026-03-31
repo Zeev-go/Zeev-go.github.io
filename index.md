@@ -4,11 +4,47 @@ title: ""
 ---
 
 <style>
+  /* 1. Hide the stubborn headers */
   header, .site-header, #header { display: none !important; }
-  .wrapper { margin-top: 0 !important; padding-top: 20px !important; }
-  summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
+
+  /* 2. Professional Typography & Layout */
+  body {
+    font-family: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+
+  /* 3. Clean up the Publications list */
+  summary { 
+    list-style: none; 
+    display: flex; 
+    align-items: flex-start; 
+    cursor: pointer; 
+    outline: none; 
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
   summary::-webkit-details-marker { display: none; }
-  details > summary { list-style: none; }
+  
+  /* 4. Style the links to be subtle but clear */
+  a { color: #0366d6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* 5. The "Abstract" box */
+  .abstract-box {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-left: 2px solid #eee;
+    padding-left: 20px;
+    font-size: 0.95em;
+    color: #555;
+  }
+
+  hr { border: 0; border-top: 1px solid #eee; margin: 40px 0; }
 </style>
 
 # Zeev Goldschmidt
