@@ -160,6 +160,8 @@ My email is zeev.goldschmidt [at] huji.ac.il
   </div>
 </details> 
 
+## Links
+
 <a href="https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">📄 My CV</a>
 <a href="https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">🎓 Google Scholar</a>
 <a href="https://philpeople.org/profiles/zeev-goldschmidt" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">👥 PhilPeople</a>
