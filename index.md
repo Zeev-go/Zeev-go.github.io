@@ -1,20 +1,30 @@
 ---
 layout: default
-title: 
+title: ""
 ---
+
 <style>
-  /* This hides the "Site Title" header in most GitHub themes */
-  .site-header, .project-name, #header { 
+  /* 1. This nukes the blue header banner entirely */
+  .page-header, .site-header, .project-name, .project-tagline { 
     display: none !important; 
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
-  
-  /* Your existing style for the triangles */
-  summary { list-style: none; display: flex; align-items: center; }
+
+  /* 2. This cleans up the main content area so it doesn't look squashed */
+  .main-content {
+    padding-top: 2rem !important;
+  }
+
+  /* 3. Your existing style for the clickable triangles */
+  summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
   summary::-webkit-details-marker { display: none; }
+  details > summary { list-style: none; }
 </style>
 
 # Zeev Goldschmidt
-
 
 <!-- [Profile Picture](images/profile.jpg){: .align-left width="200px"} -->
 
