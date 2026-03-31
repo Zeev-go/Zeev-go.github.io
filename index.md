@@ -3,6 +3,15 @@ layout: default
 title: " "
 ---
 
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    if (link.hostname !== window.location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+</script>
+
 <style>
   /* This targets the specific Blue Banner in the default GitHub theme */
   .page-header { 
