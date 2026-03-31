@@ -4,27 +4,24 @@ title: " "
 ---
 
 <style>
-  /* This targets the 5 most common header names in GitHub themes */
-  header, 
-  .page-header, 
-  .site-header, 
-  .project-name, 
-  .project-tagline { 
-    display: none !important; 
+  /* 1. This removes the colored background from the very top of the page */
+  .page-header, header, section:first-of-type, .site-header {
+    display: none !important;
+    background-image: none !important;
+    background-color: transparent !important;
     height: 0 !important;
     padding: 0 !important;
     margin: 0 !important;
-    border: none !important;
   }
 
-  /* This ensures your content starts at the top of the page */
-  .main-content, .container-lg {
-    padding-top: 40px !important;
-    max-width: 800px;
-    margin: 0 auto;
+  /* 2. This ensures your name starts on a clean white background */
+  body, .main-content, .container-lg {
+    background: white !important;
+    color: black !important;
+    padding-top: 20px !important;
   }
 
-  /* Your existing style for the clickable triangles */
+  /* 3. Fix for the clickable triangles */
   summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
   summary::-webkit-details-marker { display: none; }
 </style>
