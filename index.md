@@ -80,6 +80,7 @@ My email is zeev.goldschmidt [at] huji.ac.il
   <summary style="cursor: pointer; list-style: none; outline: none; display: block;">
     <span style="color: #0366d6; font-size: 0.8em; vertical-align: middle;">▶</span> 
     <strong><a href="https://link.springer.com/article/10.1007/s11229-020-02532-3" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">The Intrinsic Value of Risky Prospects</a></strong>, 
+    with <a href="[https://personal.lse.ac.uk/list/](https://ittaynissan.wixsite.com/ittaynis)" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #ccc;">Ittay Nissan-Rozen</a>, 
     <em>Synthese</em>, 2020 
     <a href="https://drive.google.com/file/d/1ztX4MLByOspHThBH66YKUiDVFWgS_7hy/view?usp=sharing" target="_blank" style="text-decoration: none; font-size: 0.9em; color: #0366d6;">[Preprint]</a>
   </summary>
