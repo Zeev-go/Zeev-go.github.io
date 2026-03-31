@@ -13,33 +13,35 @@ title: " "
 </script>
 
 <style>
-  /* 1. Hide the blue header */
-  .page-header { display: none !important; }
-
-  /* 2. Add space around the horizontal lines (---) */
-  hr {
-    margin-top: 60px !important;
-    margin-bottom: 40px !important;
-    border: 0;
-    border-top: 1px solid #eee; /* Makes the line subtle */
+  /* 1. This targets the specific Blue Banner in the default GitHub theme */
+  .page-header { 
+    display: none !important; 
   }
 
-  /* 3. Add space specifically above your Section Headers */
-  h2 {
-    margin-top: 40px !important;
-    margin-bottom: 20px !important;
-    border-bottom: 1px solid #eee; /* Optional: adds a nice underline to "Publications" */
-    padding-bottom: 10px;
-  }
-
-  /* 4. Keep your content centered and clean */
+  /* 2. Since the banner is gone, we add some 'breathing room' to the top */
   .main-content {
-    padding-top: 20px !important;
+    padding-top: 50px !important; 
     max-width: 800px;
     margin: 0 auto;
   }
 
-  /* Your existing triangle fix */
+  /* 3. Space around horizontal lines (---) */
+  hr {
+    margin-top: 60px !important;
+    margin-bottom: 40px !important;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+
+  /* 4. Space above Section Headers */
+  h2 {
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+
+  /* 5. Triangle/Dropdown Fix */
   summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
   summary::-webkit-details-marker { display: none; }
 </style>
