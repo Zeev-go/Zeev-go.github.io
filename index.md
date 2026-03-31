@@ -1,3 +1,8 @@
+---
+layout: default
+title: 
+---
+
 # Zeev Goldschmidt
 
 
@@ -113,9 +118,8 @@ My email is zeev.goldschmidt [at] .ac.il
 </details> 
 
 
-
-* [📄 My CV (PDF)](https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing)
-* [🎓 Google Scholar](https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en)
-* [👥 PhilPeople ](https://philpeople.org/profiles/zeev-goldschmidt)
+[📄 My CV (PDF)](https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing)
+[🎓 Google Scholar](https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en)
+[👥 PhilPeople ](https://philpeople.org/profiles/zeev-goldschmidt)
 
 
