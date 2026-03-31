@@ -1,33 +1,26 @@
 ---
 layout: default
-title: " "
+title: ""
 ---
 
 <style>
-  /* 1. This removes the colored background from the very top of the page */
-  .page-header, header, section:first-of-type, .site-header {
-    display: none !important;
-    background-image: none !important;
-    background-color: transparent !important;
-    height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  /* This hides the "zeev-go" header that the Minimal theme adds */
+  header, .site-header, #header { 
+    display: none !important; 
   }
-
-  /* 2. This ensures your name starts on a clean white background */
-  body, .main-content, .container-lg {
-    background: white !important;
-    color: black !important;
+  
+  /* This moves your content up so it's not too low on the page */
+  .wrapper {
+    margin-top: 0 !important;
     padding-top: 20px !important;
   }
 
-  /* 3. Fix for the clickable triangles */
+  /* Fix for the clickable triangles */
   summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
   summary::-webkit-details-marker { display: none; }
 </style>
 
 # Zeev Goldschmidt
-
 <!-- [Profile Picture](images/profile.jpg){: .align-left width="200px"} -->
 
 
