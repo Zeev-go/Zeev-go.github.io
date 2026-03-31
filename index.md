@@ -1,29 +1,3 @@
----
-layout: default
-title: Home
----
-
-<style>
-  a { color: #0366d6; text-decoration: none; }
-  summary { list-style: none; display: flex; align-items: center; }
-  summary::-webkit-details-marker { display: none; }
-</style>
-
-
-<style>
-  /* This makes all your links in the list look academic and clean */
-  a { 
-    color: inherit; 
-    text-decoration: none; 
-    border-bottom: 1px dotted #ccc; 
-  }
-  /* This ensures the PDF links stay blue as we discussed */
-  a[href$=".pdf"] { 
-    color: #0366d6; 
-    border-bottom: none; 
-  }
-</style>
-
 # Zeev Goldschmidt
 
 
@@ -35,7 +9,7 @@ I work primarily in epistemology, decision theory, and ethics. Broadly character
 
 My email is zeev.goldschmidt [at] .ac.il
 
-###
+
 
 ## Publications
 
@@ -77,7 +51,7 @@ My email is zeev.goldschmidt [at] .ac.il
   </div>
 </details>
 
-###
+
 
 ## Work in Progress
 
@@ -138,17 +112,10 @@ My email is zeev.goldschmidt [at] .ac.il
   </div>
 </details> 
 
-#
+
 
 * [📄 My CV (PDF)](https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing)
 * [🎓 Google Scholar](https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en)
 * [👥 PhilPeople ](https://philpeople.org/profiles/zeev-goldschmidt)
 
-<script>
-  document.querySelectorAll('a').forEach(link => {
-    if (link.hostname !== window.location.hostname) {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    }
-  });
-</script>
+
