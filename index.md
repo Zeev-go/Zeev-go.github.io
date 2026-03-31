@@ -131,3 +131,12 @@ My email is zeev.goldschmidt [at] .ac.il
 * [📄 My CV (PDF)](https://drive.google.com/file/d/1yrF3ZR0zE9sTWRMHbBFQogTRySFk1TCF/view?usp=sharing)
 * [🎓 Google Scholar](https://scholar.google.com/citations?user=WdAPBGMAAAAJ&hl=en)
 * [👥 PhilPeople ](https://philpeople.org/profiles/zeev-goldschmidt)
+
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    if (link.hostname !== window.location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+</script>
