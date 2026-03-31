@@ -1,4 +1,32 @@
+---
+layout: default
+title: " "
+---
+
+<style>
+  /* This targets the specific Blue Banner in the default GitHub theme */
+  .page-header { 
+    display: none !important; 
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* This ensures your content starts at the top and uses the standard font */
+  .main-content {
+    padding-top: 20px !important;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Fix for the clickable triangles */
+  summary { list-style: none; display: flex; align-items: center; cursor: pointer; outline: none; }
+  summary::-webkit-details-marker { display: none; }
+</style>
+
 # Zeev Goldschmidt
+
 
 
 <!-- [Profile Picture](images/profile.jpg){: .align-left width="200px"} -->
