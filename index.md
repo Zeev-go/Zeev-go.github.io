@@ -48,7 +48,7 @@ title: ""
 
 # Zeev Goldschmidt
 
-
+<img src="Profile pic.jpg" alt="Zeev Goldschmidt" style="float: right; width: 200px; border-radius: 8px; margin-left: 20px; margin-bottom: 10px;">
 
 <!-- [Profile Picture](images/profile.jpg){: .align-left width="200px"} -->
 
